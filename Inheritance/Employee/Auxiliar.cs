@@ -1,10 +1,11 @@
-﻿using System;
+﻿using POO.Inheritance.Funcionarios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace typebank.Funcionarios
+namespace POO.Inheritance
 {
     public class Auxiliar : Funcionario
     {

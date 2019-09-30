@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using typebank.Funcionarios;
 
-namespace typebank.Funcionarios
+
+namespace POO.Inheritance.Funcionarios
 {
     public class GerenciadorBonificacao
     {

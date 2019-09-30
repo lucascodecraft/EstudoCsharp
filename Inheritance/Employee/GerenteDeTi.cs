@@ -1,10 +1,10 @@
-﻿using System;
+﻿using POO.Inheritance.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using typebank.Funcionarios;
-using typebank.Sistemas;
 
-namespace typebank.Funcionarios
+
+namespace POO.Inheritance.Funcionarios
 {
     public class GerenteDeTi : FuncionarioAdm, IAutenticar
     {

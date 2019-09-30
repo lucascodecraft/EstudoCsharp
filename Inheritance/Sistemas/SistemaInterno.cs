@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using typebank.Funcionarios;
 
-namespace typebank.Sistemas
+
+namespace POO.Inheritance.Sistemas
 {
     public class SistemaInterno
     {

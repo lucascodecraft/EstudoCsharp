@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using typebank.Funcionarios;
 
-namespace typebank.Sistemas
+
+namespace POO.Inheritance.Sistemas
 {
     public interface IAutenticar // Uma interface contém apenas as assinaturas de métodos, propriedades, eventos ou indexadores.
     { 

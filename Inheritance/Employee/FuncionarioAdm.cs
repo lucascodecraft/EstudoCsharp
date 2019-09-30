@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace typebank.Funcionarios
+namespace POO.Inheritance.Funcionarios
 {
     public abstract class FuncionarioAdm : Funcionario
     {

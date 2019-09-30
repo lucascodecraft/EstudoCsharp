@@ -1,8 +1,10 @@
-﻿using System;
-using typebank.Funcionarios;
-using typebank.Sistemas;
+﻿using POO.Inheritance.Funcionarios;
+using POO.Inheritance.Sistemas;
+using System;
+using POO.Inheritance.ParceirosDoTypebank;
 
-namespace typebank.ParceirosDoTypebank
+
+namespace POO.Inheritance
 {
     class Programa
     {
@@ -27,7 +29,7 @@ namespace typebank.ParceirosDoTypebank
             maria.Nome = "Maria";
             maria.Senha = "254";
 
-            ParceirosDoTypebank parceiro = new ParceirosDoTypebank();
+            var parceiro = new POO.Inheritance.ParceirosDoTypebank.ParceirosDoTypebank();
             parceiro.Nome = "Parceiro";
             parceiro.Senha = "542";
 

@@ -1,9 +1,10 @@
-﻿using System;
+﻿using POO.Inheritance.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using typebank.Sistemas;
 
-namespace typebank.ParceirosDoTypebank
+
+namespace POO.Inheritance.ParceirosDoTypebank
 {
     public class ParceiroAdm : IAutenticar
     {
