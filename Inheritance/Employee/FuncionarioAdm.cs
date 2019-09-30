@@ -11,5 +11,6 @@ namespace typebank.Funcionarios
         }
         public string Senha { get; set; }
 
+
     }
 }

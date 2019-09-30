@@ -18,5 +18,6 @@ namespace typebank.Funcionarios
         public bool Autenticar(string senha) => Senha.Equals(senha);
         
         public override double GetBonificacao() => Salario * 0.15;
+
     }
 }
