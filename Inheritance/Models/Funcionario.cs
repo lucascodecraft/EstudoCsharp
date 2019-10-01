@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace POO.Inheritance.Funcionarios
+namespace EstudoCsharp.Inheritance.Funcionarios
 {
     public abstract class Funcionario
     {

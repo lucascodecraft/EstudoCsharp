@@ -1,10 +1,11 @@
-﻿using System;
+﻿using EstudoCsharp.Inheritance.Funcionarios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace EstudoCsharp.Inheritance.Funcionarios
+namespace EstudoCsharp.Inheritance
 {
     public class GerenciadorBonificacao
     {

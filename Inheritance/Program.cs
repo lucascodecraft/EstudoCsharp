@@ -1,12 +1,12 @@
-﻿using POO.Inheritance.Funcionarios;
-using POO.Inheritance.Sistemas;
+﻿using EstudoCsharp.Inheritance.Funcionarios;
+using EstudoCsharp.Inheritance.Sistemas;
 using System;
-using POO.Inheritance.ParceirosDoTypebank;
+using EstudoCsharp.Inheritance.ParceirosDoTypebank;
 
 
-namespace POO.Inheritance
+namespace EstudoCsharp.Inheritance
 {
-    class Programa
+    class Program
     {
         private static SistemaInterno sistemaInterno;
 
@@ -29,7 +29,7 @@ namespace POO.Inheritance
             maria.Nome = "Maria";
             maria.Senha = "254";
 
-            var parceiro = new POO.Inheritance.ParceirosDoTypebank.ParceirosDoTypebank();
+            var parceiro = new EstudoCsharp.Inheritance.ParceirosDoTypebank.ParceirosDoTypebank();
             parceiro.Nome = "Parceiro";
             parceiro.Senha = "542";
 

@@ -1,11 +1,11 @@
-﻿using POO.Inheritance.Funcionarios;
+﻿using EstudoCsharp.Inheritance.Funcionarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POO.Inheritance
+namespace EstudoCsharp.Inheritance
 {
     public class Auxiliar : Funcionario
     {

@@ -1,9 +1,9 @@
-﻿using POO.Inheritance.Sistemas;
+﻿using EstudoCsharp.Inheritance.Sistemas;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace POO.Inheritance.Funcionarios
+namespace EstudoCsharp.Inheritance.Funcionarios
 {
      public class Diretor : FuncionarioAdm, IAutenticar
     {

@@ -1,10 +1,10 @@
-﻿using POO.Inheritance.Sistemas;
+﻿using EstudoCsharp.Inheritance.Sistemas;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 
-namespace POO.Inheritance.ParceirosDoTypebank
+namespace EstudoCsharp.Inheritance.ParceirosDoTypebank
 {
     public class ParceiroAdm : IAutenticar
     {

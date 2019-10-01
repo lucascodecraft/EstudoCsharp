@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace POO.Inheritance.Sistemas
+namespace EstudoCsharp.Inheritance.Sistemas
 {
     public interface IAutenticar // Uma interface contém apenas as assinaturas de métodos, propriedades, eventos ou indexadores.
     { 
