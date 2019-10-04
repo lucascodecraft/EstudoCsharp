@@ -16,7 +16,7 @@ namespace EstudoCsharp.Inheritance.Sistemas
                 Console.WriteLine("Bem-vindo ao sistema!!");
                 return true; 
             }
-            else
+            else 
             {
                 Console.WriteLine("Senha incorreta!");
                 return false;

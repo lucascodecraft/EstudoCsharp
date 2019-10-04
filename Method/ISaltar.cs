@@ -9,6 +9,6 @@ namespace Method
         public int saltar { get; set; }
         public int Saltei { get; set; }
         public int TotaldeSaltos { get; set; }
-        void Saltar();
+        void Saltar(); 
     }
 }

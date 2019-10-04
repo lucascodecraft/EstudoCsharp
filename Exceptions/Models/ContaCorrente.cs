@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TypeBank
 {
     public class ContaCorrente
-    {
+    { 
         private static int TaxaOperacao;
 
         public static int TotalDeContasCriadas { get; private set; }

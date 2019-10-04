@@ -11,6 +11,5 @@ namespace EstudoCsharp.Inheritance.Funcionarios
         }
         public string Senha { get; set; }
 
-
     }
 }

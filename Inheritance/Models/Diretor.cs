@@ -12,7 +12,7 @@ namespace EstudoCsharp.Inheritance.Funcionarios
             Console.WriteLine("Criando diretor");
         }
         public bool Autenticar(string senha) => Senha.Equals(senha);
-
+         
         public override void AumentarSalario() => Salario *= 1.15;
 
         public override double GetBonificacao() => Salario * 0.5; // (override diz que o matodo vai subescrever o metodo da MÃE.)

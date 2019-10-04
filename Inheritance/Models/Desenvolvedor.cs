@@ -9,7 +9,7 @@ namespace EstudoCsharp.Inheritance.Funcionarios
         public Desenvolvedor(string cpf) : base(4500, cpf)
         {
             Console.WriteLine("Criando Dev");
-        }
+        } 
 
         public override void AumentarSalario() => Salario *= 1.04;
 

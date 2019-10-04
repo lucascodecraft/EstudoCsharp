@@ -14,7 +14,7 @@ namespace Method
 
             Console.ReadLine();
         }
-
+         
         public static void InformacaoConstrutor()
         {
             Humano humano = new Humano("Gesiel");

@@ -14,7 +14,7 @@ namespace Method
             Tipo = tipo;
             Nome = nome;
         }
-
+         
         public abstract void Andar();
     }
 }

@@ -15,7 +15,6 @@ namespace TypeBank
         {
 
         }
-
         public SaldoInsuficienteException(double saldo, double valorSaque)
             : this("Tentativa de saque do valor de " + valorSaque + " em uma conta com saldo de " + saldo)
         {

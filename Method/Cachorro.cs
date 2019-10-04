@@ -22,7 +22,7 @@ namespace Method
             TotaldeSaltos++;
             Saltei = saltar;
         }
-
+         
         public override void Andar()
         {
             Console.WriteLine("Cachorro andou.");

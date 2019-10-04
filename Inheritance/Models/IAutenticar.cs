@@ -10,3 +10,4 @@ namespace EstudoCsharp.Inheritance.Sistemas
         bool Autenticar(string senha); //Em uma interface todos os metodos são public, sendo assim não precisando utilizar o plublic.
     }
 }
+ 

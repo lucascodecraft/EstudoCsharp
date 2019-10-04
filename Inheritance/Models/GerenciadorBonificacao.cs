@@ -15,7 +15,6 @@ namespace EstudoCsharp.Inheritance
         {
             Funcionarios = new List<Funcionario>();
         }
-
         public void Registrar(Funcionario funcionario)
         {
             Funcionarios.Add(funcionario);

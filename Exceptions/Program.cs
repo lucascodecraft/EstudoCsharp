@@ -42,7 +42,6 @@ namespace TypeBank
             {
                 Console.WriteLine(ex.Message);
             }
-
             Console.ReadLine();
         }
 

@@ -8,7 +8,7 @@ namespace EstudoCsharp.Inheritance.Funcionarios
     {
         public static int TotaldeFuncionario { get; private set; }
         public string Nome { get; set; }
-        public string CPF { get; set; }
+        public string CPF { get; set; } 
         public double Salario { get; protected set; }
 
         public Funcionario(double salario, string cpf )

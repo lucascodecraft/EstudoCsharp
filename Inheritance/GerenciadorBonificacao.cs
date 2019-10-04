@@ -12,7 +12,7 @@ namespace EstudoCsharp.Inheritance.Funcionarios
 
         public GerenciadorBonificacao()
         {
-            Funcionarios = new List<Funcionario>();
+            Funcionarios = new List<Funcionario>(); 
         }
 
         public void Registrar(Funcionario funcionario)

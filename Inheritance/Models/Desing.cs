@@ -10,7 +10,7 @@ namespace EstudoCsharp.Inheritance.Funcionarios
         {
             Console.WriteLine("Criando Desing");
         }
-        public override void AumentarSalario() => Salario *= 1.05;
+        public override void AumentarSalario() => Salario *= 1.05; 
 
         public override double GetBonificacao() => Salario * 0.25;
 

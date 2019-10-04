@@ -9,7 +9,6 @@ namespace EstudoCsharp.Inheritance.ParceirosDoTypebank
     public class ParceirosDoTypebank : ParceiroAdm, IAutenticar
     {
         public string Nome { get; set; }
-
         public ParceirosDoTypebank()
         {
             Console.WriteLine("Criando Parceiro");

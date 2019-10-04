@@ -21,7 +21,7 @@ namespace EstudoCsharp.Inheritance
         public static void UsarSistema()
         {
             sistemaInterno = new SistemaInterno();
-            Diretor lucas = new Diretor("542.253.545-85");
+            Diretor lucas = new Diretor("542.253.545-85"); 
             lucas.Nome = "Lucas";
             lucas.Senha = "123";
 
