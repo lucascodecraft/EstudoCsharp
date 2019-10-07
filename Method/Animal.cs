@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Method
 {
-    public abstract class Animal
+    public abstract class Animal : IAnimal
     {
         public string Tipo { get; }
         public string Nome { get; }
@@ -15,6 +15,14 @@ namespace Method
             Nome = nome;
         }
          
-        public abstract void Andar();
+        public virtual void Andar()
+        {
+            Console.WriteLine("Animal andou.");
+        }
+
+        public virtual void Saltar()
+        {
+            Console.WriteLine("Animal saltou.");
+        }
     }
 }

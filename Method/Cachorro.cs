@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Method
 {
-    public class Cachorro : Animal, ISaltar
+    public class Cachorro : Animal
     {
         public string MododeAndar { get; set; }
         public int TotaldeSaltos { get; set; }
@@ -14,7 +14,7 @@ namespace Method
             Console.WriteLine("Criando cachorro");
         }
 
-        public void Saltar()
+        public override void Saltar()
         {
             Console.WriteLine("Cachorro saltou.");
             TotaldeSaltos++;
@@ -25,5 +25,6 @@ namespace Method
             Console.WriteLine("Cachorro andou.");
             MododeAndar = "Andei de quatro patas";
         }
+
     }
 }

@@ -4,8 +4,11 @@ using System.Text;
 
 namespace Method
 {
-    public interface ISaltar
+    public interface IAnimal
     {
-        void Saltar(); 
+        void Saltar();
+
+        void Andar();
+
     }
 }

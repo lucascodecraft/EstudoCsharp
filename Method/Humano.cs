@@ -12,7 +12,10 @@ namespace Method
         {
             Console.WriteLine("Criando Humano");
         }
-         
+        public override void Saltar()
+        {
+            Console.WriteLine("Humano saltou.");
+        }
         public override void Andar()
         {
             Console.WriteLine("Humano andou.");
