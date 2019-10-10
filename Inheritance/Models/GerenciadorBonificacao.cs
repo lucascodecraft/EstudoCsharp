@@ -21,5 +21,6 @@ namespace EstudoCsharp.Inheritance
         }
 
         public double GetTotalBonificacao() => Funcionarios.Sum(x => x.GetBonificacao()); // somando as bonificações dentro da lista
+       
     }
 }

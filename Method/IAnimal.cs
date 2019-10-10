@@ -4,11 +4,13 @@ using System.Text;
 
 namespace Method
 {
-    public interface IAnimal
+    public interface IAnimal 
     {
         void Saltar();
 
         void Andar();
+
+        void Correr();
 
     }
 }

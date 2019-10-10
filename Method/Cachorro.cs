@@ -25,6 +25,10 @@ namespace Method
             Console.WriteLine("Cachorro andou.");
             MododeAndar = "Andei de quatro patas";
         }
+        public override void Correr()
+        {
+            Console.WriteLine("cachorro correu");
+        }
 
     }
 }

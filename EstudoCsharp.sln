@@ -7,7 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoExceptions", "Excepti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoInheritance", "Inheritance\EstudoInheritance.csproj", "{6CAA209A-219A-4FD2-A78F-60197585D8F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoMethod", "Method\EstudoMethod.csproj", "{870E7BCD-29F4-46E1-9D09-A3B440296345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoMethod", "Method\EstudoMethod.csproj", "{870E7BCD-29F4-46E1-9D09-A3B440296345}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoClasses", "EstudoClasses\EstudoClasses.csproj", "{CB07D74C-5318-40FF-ACEA-C6990A33B489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoManipulacaoString", "EstudoManipulacaoString\EstudoManipulacaoString.csproj", "{154E307F-CE3B-4133-8494-B7C37D09B05B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{870E7BCD-29F4-46E1-9D09-A3B440296345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{870E7BCD-29F4-46E1-9D09-A3B440296345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{870E7BCD-29F4-46E1-9D09-A3B440296345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB07D74C-5318-40FF-ACEA-C6990A33B489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB07D74C-5318-40FF-ACEA-C6990A33B489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB07D74C-5318-40FF-ACEA-C6990A33B489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB07D74C-5318-40FF-ACEA-C6990A33B489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154E307F-CE3B-4133-8494-B7C37D09B05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154E307F-CE3B-4133-8494-B7C37D09B05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154E307F-CE3B-4133-8494-B7C37D09B05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154E307F-CE3B-4133-8494-B7C37D09B05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

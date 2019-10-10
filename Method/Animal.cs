@@ -24,5 +24,10 @@ namespace Method
         {
             Console.WriteLine("Animal saltou.");
         }
+
+        public virtual void Correr()
+        {
+            Console.WriteLine("Correu");
+        }
     }
 }

@@ -21,5 +21,10 @@ namespace Method
             Console.WriteLine("Humano andou.");
             MododeAndar = "Andei de duas pernas";
         }
+
+        public override void Correr()
+        {
+            Console.WriteLine("Humano correu");
+        }
     }
 }
