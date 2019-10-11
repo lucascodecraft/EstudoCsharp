@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoClasses", "Classes\Es
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoManipulacaoString", "StringManipulation\EstudoManipulacaoString.csproj", "{7FADB022-453A-472A-B722-52655E636DEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoList", "EstudoList\EstudoList.csproj", "{FE3C704C-5E4C-45C9-910C-EEBC0264CC46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7FADB022-453A-472A-B722-52655E636DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FADB022-453A-472A-B722-52655E636DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FADB022-453A-472A-B722-52655E636DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3C704C-5E4C-45C9-910C-EEBC0264CC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3C704C-5E4C-45C9-910C-EEBC0264CC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3C704C-5E4C-45C9-910C-EEBC0264CC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3C704C-5E4C-45C9-910C-EEBC0264CC46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
