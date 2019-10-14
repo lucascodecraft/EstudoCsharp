@@ -8,6 +8,7 @@ namespace EstudoLista
         public static void Main(string[] args)
         {
             TestandoListaDeInt();
+            Console.WriteLine("=========");
             TestandoListaDeString();
         }
 
@@ -16,7 +17,8 @@ namespace EstudoLista
             var notas = new List<int>();
 
             notas.Add(5);
-            notas.AdicionarVarios(2, 5);
+            notas.AdicionarVarios(15, 2, 5);
+            notas.Sort();                            // Ordena as lista.
 
             for (var i = 0; i < notas.Count; i++)
             {
@@ -26,15 +28,16 @@ namespace EstudoLista
 
         static void TestandoListaDeString()
         {
-            var nomes = new List<string>();
-
-            nomes.Add("Lucas");
-
-            nomes.AdicionarVarios("Victor", "Gesiel");
-
-            for (var i = 0; i < nomes.Count; i++)
+            var nomes = new List<string>()
             {
-                Console.WriteLine(nomes[i]);
+                "Victor" ,"Marcos", "Gesiel", "Lucas"
+            };
+
+            nomes.Sort();
+ 
+            foreach (var nome in nomes)
+            {
+                Console.WriteLine(nome);
             }
         }
     }
