@@ -8,7 +8,6 @@ namespace EstudoClasses
     {
         public Mamifero(string nome) : base(nome)
         {
-           
         }
 
         public void Mamar()

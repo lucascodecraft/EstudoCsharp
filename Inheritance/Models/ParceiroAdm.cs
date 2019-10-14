@@ -10,6 +10,5 @@ namespace EstudoCsharp.Inheritance.ParceirosDoTypebank
     {
         public string Senha { get; set; }
         public bool Autenticar(string senha) => Senha == senha;
-
     }
 }

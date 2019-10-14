@@ -27,7 +27,5 @@ namespace EstudoClasses
         {
             //Implementar rotina;
         }
-
-       
     }
 }

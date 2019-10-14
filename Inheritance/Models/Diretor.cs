@@ -16,6 +16,5 @@ namespace EstudoCsharp.Inheritance.Funcionarios
         public override void AumentarSalario() => Salario *= 1.15;
 
         public override double GetBonificacao() => Salario * 0.5; // (override diz que o matodo vai subescrever o metodo da MÃE.)
-
     }
 }

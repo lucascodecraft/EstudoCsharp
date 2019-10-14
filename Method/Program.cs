@@ -17,8 +17,8 @@ namespace Method
          
         public static void InformacaoConstrutor()
         {
-            Humano humano = new Humano("Gesiel");
-            Cachorro cachorro = new Cachorro("scoob");
+            var humano = new Humano("Gesiel");
+            var cachorro = new Cachorro("scoob");
 
             Console.WriteLine("Nome: " + humano.Nome);
             Console.WriteLine("Tipo: " + humano.Tipo);
@@ -29,7 +29,7 @@ namespace Method
 
         public static void Saltar()
         {
-            Cachorro cachorro = new Cachorro("scoob");
+            var cachorro = new Cachorro("scoob");
 
             cachorro.Saltar();
             cachorro.Saltar();
@@ -42,8 +42,8 @@ namespace Method
 
         public static void Andar()
         {
-            Humano humano = new Humano("Gesiel");
-            Cachorro cachorro = new Cachorro("scoob");
+            var humano = new Humano("Gesiel");
+            var cachorro = new Cachorro("scoob");
 
             humano.Andar();
             cachorro.Andar();

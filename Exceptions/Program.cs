@@ -47,8 +47,8 @@ namespace TypeBank
 
         private static void FazerAlgo()
         {
-            ContaCorrente conta = new ContaCorrente(12,511);
-            ContaCorrente conta2 = new ContaCorrente(1551, 254);
+            var conta = new ContaCorrente(12,511);
+            var conta2 = new ContaCorrente(1551, 254);
 
                 conta2.Transferir(10, conta);
                 conta.Depositar(50);

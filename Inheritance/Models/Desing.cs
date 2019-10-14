@@ -13,6 +13,5 @@ namespace EstudoCsharp.Inheritance.Funcionarios
         public override void AumentarSalario() => Salario *= 1.05; 
 
         public override double GetBonificacao() => Salario * 0.25;
-
     }
 }
