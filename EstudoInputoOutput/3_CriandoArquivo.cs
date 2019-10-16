@@ -26,5 +26,15 @@ namespace EstudoInputOutput
             }
         }
 
+        static void CriandoArquivoComWriter()
+        {
+            var caminhoDoNovoArquivo = "contasExportadas.csv";
+
+            using (var fluxoDoArquivo = new FileStream(caminhoDoNovoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoDoArquivo))
+            {
+                escritor.Write("242,52545,2521.2, Lucas Lima");
+            }
+        }
     }
 }

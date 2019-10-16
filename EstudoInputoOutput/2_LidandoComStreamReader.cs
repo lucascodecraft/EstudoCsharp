@@ -12,7 +12,7 @@ namespace EstudoInputOutput
 {
     partial class Program // quando uso o "partial" eu digo que quero o mesmo arquivo dentro do mesmo projeto. Ou seja, tenho varias classes do mesmo arquivo.
     {
-        static void Main(string[] args)
+        static void AbrindoArquivo()
         {
             var enderecoDoArquivo = "conta.txt";
 
