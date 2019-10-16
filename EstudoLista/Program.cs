@@ -17,7 +17,7 @@ namespace EstudoLista
             var notas = new List<int>();
 
             notas.Add(5);
-            notas.AdicionarVarios(15, 2, 5);
+            notas.AdicionarVarios(2, 5, 4);
             notas.Sort();                            // Ordena as lista.
 
             for (var i = 0; i < notas.Count; i++)
@@ -34,7 +34,7 @@ namespace EstudoLista
             };
 
             nomes.Sort();
- 
+
             foreach (var nome in nomes)
             {
                 Console.WriteLine(nome);

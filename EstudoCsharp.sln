@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoArray", "EstudoList\E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoLista", "EstudoLista\EstudoLista.csproj", "{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoInputOutput", "EstudoInputoOutput\EstudoInputOutput.csproj", "{03CE78E7-0104-4D11-9330-E9DFA05784DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
