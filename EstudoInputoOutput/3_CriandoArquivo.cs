@@ -36,5 +36,20 @@ namespace EstudoInputOutput
                 escritor.Write("242,52545,2521.2, Lucas Lima");
             }
         }
+
+        static void TestandoEscrita()
+        {
+            var caminhoDoArquivo = "texto.txt";
+
+            using (var fluxoDoArquivo = new FileStream(caminhoDoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoDoArquivo))
+            {
+                for (int i = 0; i < 10000; i++)
+                {
+                    escritor.WriteLine($"Linha {i}");
+                    Console.ReadLine();
+                }
+            }
+        }
     }
 }

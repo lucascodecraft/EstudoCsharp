@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoManipulacaoString", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoArray", "EstudoList\EstudoArray.csproj", "{FE3C704C-5E4C-45C9-910C-EEBC0264CC46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoLista", "EstudoLista\EstudoLista.csproj", "{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoLista", "EstudoLista\EstudoLista.csproj", "{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoInputOutput", "EstudoInputoOutput\EstudoInputOutput.csproj", "{03CE78E7-0104-4D11-9330-E9DFA05784DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoInputOutput", "EstudoInputOutputt\EstudoInputOutput.csproj", "{7AB30949-1BEA-431F-B2CD-DFB9A2E24BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC5416A-DE08-4AEB-981C-AFEC7FAE579D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03CE78E7-0104-4D11-9330-E9DFA05784DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB30949-1BEA-431F-B2CD-DFB9A2E24BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB30949-1BEA-431F-B2CD-DFB9A2E24BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB30949-1BEA-431F-B2CD-DFB9A2E24BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB30949-1BEA-431F-B2CD-DFB9A2E24BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
