@@ -11,7 +11,6 @@ namespace EstudoEntityFramework
         public DbSet<Promocao> Promocoes { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder
@@ -21,7 +20,6 @@ namespace EstudoEntityFramework
             modelBuilder
                 .Entity<Cliente>()
                 .OwnsOne(c => c.EnderecoDeEntrega);
-            
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
