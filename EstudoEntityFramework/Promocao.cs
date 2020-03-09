@@ -19,7 +19,6 @@ namespace EstudoEntityFramework
         public void IncluiProduto(Produto produto)
         {
             this.Produtos.Add(new PromocaoProduto() { Produto = produto });
-
         }
     }
 }
